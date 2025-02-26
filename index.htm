@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Account</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="">
+
+
+    <!-- this is register section -->
+    <section class="bg-white py-10 rounded-lg px-4 max-w-xl  font-sans">
+        <h2 class="text-2xl font-bold mb-4 text-[#04386C]">REGISTER ACCOUNT</h2>
+        <p>If you already have an account with us, please login at the <a class="text-blue-600" href="">login page.</a>
+        </p>
+        <form>
+            <!-- personal details -->
+            <h3 class="text-lg font-semibold mb-2 mt-5 text-[#7E7E7E]">Your Personal Details</h3>
+            <div class="grid  gap-4">
+                <div class=" md:flex  gap-3 justify-between ">
+                    <h1 class="text-[#7E9697] text-[14px] "><span class="text-red-600">*</span> First Name:</h1>
+                    <input type="text" class="border p-[3px]  w-[350px]">
+                </div>
+                <div class="md:flex gap-3 justify-between">
+                    <h1 class="text-[#7E9697] text-[14px]"><span class="text-red-600">*</span> Last Name:</h1>
+                    <input type="text" class="border p-[3px]  w-[350px]">
+                </div>
+                <div class="md:flex gap-3 justify-between">
+                    <h1 class="text-[#7E9697] text-[14px]"><span class="text-red-600">*</span> E-Mail:</h1>
+                    <input type="text" class="border p-[3px]  w-[350px]">
+                </div>
+                <div class="md:flex gap-3 justify-between">
+                    <h1 class="text-[#7E9697] text-[14px]"><span class="text-red-600">*</span> Telephone:</h1>
+                    <input type="text" class="border p-[3px]  w-[350px]">
+                </div>
+            </div>
+            <!-- your address -->
+            <h3 class="text-lg font-semibold mb-2 mt-5 text-[#7E7E7E]">Your Address</h3>
+            <div class="grid  gap-4">
+                <div class=" md:flex  gap-3 justify-between ">
+                    <h1 class="text-[#7E9697] text-[14px]"><span class="text-red-600">*</span> Store Name:</h1>
+                    <input type="text" class="border p-[3px]  w-[350px]">
+                </div>
+                <div class="md:flex gap-3 justify-between">
+                    <h1 class="text-[#7E9697] text-[14px]"><span class="text-red-600">*</span> Store Type:</h1>
+                    <select class="border p-[3px] text-[14px]  w-[350px]">
+                        <option class="text-[13px]">---Please select---</option>
+                        <option class="text-[13px]">Grocery</option>
+                        <option class="text-[13px]">Electronics</option>
+                        <option class="text-[13px]">Clothing</option>
+                    </select>
+                </div>
+                <div class=" md:flex  gap-3 justify-between ">
+                    <h1 class="text-[#7E9697] text-[14px]"><span class="text-red-600">*</span> Address 1:</h1>
+                    <input type="text" class="border p-[3px]  w-[350px]">
+                </div>
+                <div class="md:flex gap-3 justify-between">
+                    <h1 class="text-[#7E9697] text-[14px]"><span class="text-red-600">*</span> Address 2:</h1>
+                    <input type="text" class="border p-[3px]  w-[350px]">
+                </div>
+                <div class="md:flex gap-3 justify-between">
+                    <h1 class="text-[#7E9697] text-[14px]"><span class="text-red-600">*</span> City:</h1>
+                    <input type="text" class="border p-[3px]  w-[350px]">
+                </div>
+                <div class="md:flex gap-3 justify-between">
+                    <h1 class="text-[#7E9697] text-[14px]"><span class="text-red-600">*</span> Zip code:</h1>
+                    <input type="text" class="border p-[3px]  w-[350px]">
+                </div>
+
+                <div class="md:flex gap-3 justify-between">
+                    <h1 class="text-[#7E9697] text-[14px]"><span class="text-red-600">*</span> Country:</h1>
+                    <select class="border p-[3px] text-[14px] w-[350px]">
+                        <option class="text-[13px]">---Please select---</option>
+                        <option class="text-[13px]">USA</option>
+                        <option class="text-[13px]">Canada</option>
+                        <option class="text-[13px]">UK</option>
+                    </select>
+                </div>
+
+                <div class="md:flex gap-3 justify-between">
+                    <h1 class="text-[#7E9697] text-[14px]"><span class="text-red-600">*</span> Region / State:</h1>
+                    <select class="border p-[3px] text-[14px]  w-[350px]">
+                        <option class="text-[13px]">---Please select---</option>
+                        <option class="text-[13px]">California</option>
+                        <option class="text-[13px]">New York</option>
+                        <option class="text-[13px]">Texas</option>
+                    </select>
+                </div>
+
+                <div class="md:flex gap-3 justify-between">
+                    <h1 class="text-[#7E9697] text-[14px]"><span class="text-red-600">*</span> Sales Person</h1>
+                    <select class="border p-[3px] text-[14px] w-[350px]">
+                        <option class="text-[13px]">---Please select---</option>
+                        <option class="text-[13px]">Select Store Type1</option>
+                        <option class="text-[13px]">Select Store Type2</option>
+                        <option class="text-[13px]">Select Store Type3</option>
+                    </select>
+                </div>
+            </div>
+            <!-- your password -->
+            <h3 class="text-lg font-semibold mb-2 mt-5 text-[#7E7E7E]">Your Password</h3>
+            <div class="grid  gap-4">
+                <div class=" md:flex  gap-3 justify-between ">
+                    <h1 class="text-[#7E9697] text-[14px]"><span class="text-red-600">*</span> First Name:</h1>
+                    <input type="text" class="border p-[3px]  w-[350px]">
+                </div>
+                <div class="md:flex gap-3 justify-between">
+                    <h1 class="text-[#7E9697] text-[14px]"><span class="text-red-600">*</span> Last Name:</h1>
+                    <input type="text" class="border p-[3px]  w-[350px] ">
+                </div>
+
+            </div>
+
+
+
+            <h3 class="text-lg font-semibold mt-4 mb-2 uppercase"><span class="text-red-600">*</span> Enter the code in the box
+                below:</h3>
+            <div class=" ">
+                <input type="text" placeholder="Enter CAPTCHA" class="border p-[3px] w-[200px]">
+                <br>
+                <img src="captcha-placeholder.png" alt="CAPTCHA" class="h-10 mt-4">
+            </div>
+
+            <h3 class="text-lg font-semibold mb-2 mt-5 text-gray-600">Newsletter</h3>
+            <div class="flex  items-center gap-4 ">
+                <h3 class="text-lg   text-gray-600">
+                    Subscribe:</h3>
+
+                <level class="mt">
+                    <input type="radio" name="subscribe" value="yes" class=""> Yes
+                </level>
+
+
+                <level class="">
+                    <input type="radio" name="subscribe" value="no" class=""> No
+                </level>
+
+            </div>
+
+            <div class="flex items-center mt-4">
+                <input type="checkbox" class="mr-2">
+                <label>I have read and agree to the <a href="#" class="text-blue-500">Privacy Policy</a></label>
+            </div>
+
+            <button class="mt-4 px-10 bg-[#323333] text-white py-2  hover:bg-blue-700">Continue</button>
+        </form>
+    </section>
+
+
+</body>
+
+</html>
